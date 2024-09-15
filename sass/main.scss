@@ -5,19 +5,6 @@ body{
 
 
 
-    nav{
-
-    a{
-    .hover:hover{
-        color: yellowgreen;
-    }
-    
-
-    .active:active{
-        color:greenyellow;
-
-
-    }}}
 
 
 
@@ -56,3 +43,25 @@ body{
     }
 
 }
+
+
+
+nav{
+    .navbar{
+    background-color: black;
+
+    }
+
+    a{
+    .hover:hover{
+        color: yellowgreen;
+    }
+    
+
+    .active:active{
+        color:greenyellow;
+
+
+    }}}
+
+
