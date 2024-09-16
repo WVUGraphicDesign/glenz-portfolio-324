@@ -1,9 +1,16 @@
+$start-color:black;
+
+$mid-color: #18015C;
+
+$end-color: #0C936D;
+
+$enable-gradients: true;
+
+
 body{
-    background-color: #18015C;
 
 
-
-
+    background-color: linear-gradient($start-color, $mid-color, $end-color );
 
 
 
@@ -47,21 +54,23 @@ body{
 
 
 nav{
-    .navbar{
-    background-color: black;
-
-    }
-
-    a{
-    .hover:hover{
-        color: yellowgreen;
-    }
     
 
-    .active:active{
-        color:greenyellow;
+        .navbar{
+        background-color: black;
+        position:static;
+        }
+
+        a{
+            .hover:hover{
+                color: yellowgreen;
+        }
+    
+
+            .active:active{
+                color:greenyellow;
 
 
-    }}}
+        }}}
 
 
