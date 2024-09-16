@@ -4,19 +4,11 @@ $mid-color: #18015C;
 
 $end-color: #0C936D;
 
-$enable-gradients: true;
 
 
 body{
 
     
-
-
-    @mixin gradient-y($start-color, $end-color) {
-        background-image: linear-gradient( $start-color , $end-color);
-      }
-
-
 
     p{
         font-family: fairplex-narrow, serif;
