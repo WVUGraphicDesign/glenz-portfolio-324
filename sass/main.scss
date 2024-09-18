@@ -57,6 +57,9 @@ body{
 nav{
     padding-top:50px;
     
+    flex-direction: column;
+
+    
     ul{
         text-align:center;
     }
@@ -78,15 +81,24 @@ nav{
             flex-direction: column;
         }
    
+        .navbar {
+            @media (min-width:992px){
+                position:fixed;              
+            }
+            
+            
+            
+        }
 
 
 
 body{
-    background: rgb(236, 225, 225);
+    background: rgb(0, 0, 0);
 background: -moz-linear-gradient(167deg, rgba(30,30,30,1) 0%, rgba(24,1,92,1) 49%, rgba(14,116,105,1) 100%);
 background: -webkit-linear-gradient(167deg, rgba(30,30,30,1) 0%, rgba(24,1,92,1) 49%, rgba(14,116,105,1) 100%);
 background: linear-gradient(167deg, rgba(30,30,30,1) 0%, rgba(24,1,92,1) 49%, rgba(14,116,105,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e1e1e",endColorstr="#0e7469",GradientType=1);
+background-attachment: fixed;
 }
 
 
@@ -110,15 +122,40 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e1e1e",endCo
 
 
 article{
-    padding-top: 50px;
+    @media (min-width: 992px){
+      padding-top: 100px;
+      
+    }
 }
       
 aside{
-    padding-top:50px;
+    @media (min-width: 992px){
+        padding-top: 100px;
+        
+      }
 }
 
 
+.info{
+    @media (min-width: 992px){
+    position:fixed;
+    width:400px;     
+    }
+    
+}
 
+.navbar-toggler {
+    border-color: lightgreen;
+}
 
+.logo{
+    width: 150px;
+    margin:0 auto;
+}
 
-
+img{
+    @media (min-width:992px) {
+        width:100%;
+        
+    }
+}
