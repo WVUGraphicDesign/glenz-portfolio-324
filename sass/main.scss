@@ -9,8 +9,8 @@ $end-color: #0C936D;
 body{
 
     p{
-        padding-top:20px;
-        padding-bottom:20px;
+        padding-top:15px;
+        padding-bottom:15px;
         font-family: fairplex-narrow, serif;
         font-weight: 400;
         font-style: normal; 
@@ -33,12 +33,15 @@ body{
 
     h2{
         font-family: amaranth, sans-serif;
-        font-weight: 400;
+        font-weight: 440;
         font-style: normal;
         color:white;
-        margin-top:30px;
+        margin-top:25px;
 
     }
+
+
+
 
     h3{
         color:white;
@@ -49,15 +52,24 @@ body{
         
     }
 
+    h4{
+        font-family: amaranth, sans-serif;
+        font-weight: 250;
+        font-style: bold;
+        color:white;
+        margin-top:25px;
+
+    }
     
 
     .button{
-        
         color:black;
         background-color: white;
         padding:15px;
         border-radius: 20px;
         text-align: center;
+        margin-bottom:30px;
+        text-decoration: none;
     }
 
     .button:hover{
@@ -70,6 +82,18 @@ body{
 
     img{
         padding-bottom: 20px;
+    }
+
+}
+
+.grid{
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+
+    img{
+        width:100%;
     }
 
 }
@@ -169,6 +193,15 @@ aside{
     }
 }
 
+.trac{
+    @media(min-width: 576px){
+        margin-top:30px;
+    }
+
+
+
+}
+
 .case{
     @media (min-width: 992px){
         width:400px;     
@@ -190,8 +223,27 @@ aside{
 }
 
 img{
-    @media (min-width:992px) {
+   
         width:100%;
-        
-    }
+    
+
+    
 }
+
+
+
+
+
+.home {
+    
+    h2{
+    margin-top:0px;
+    width:100%;
+    margin-bottom:20px; }   
+    
+    
+     @media(min-width:992px){
+        padding-top:30px;}
+    
+}
+
