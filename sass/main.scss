@@ -10,14 +10,20 @@ body{
 
     p{
         padding-top:20px;
+        padding-bottom:20px;
         font-family: fairplex-narrow, serif;
-        font-weight: 500;
-        font-style: normal;
+        font-weight: 400;
+        font-style: normal; 
         color:white;
         font-size:15px;
+
+
+
+
     }
 
     h1{
+
         font-family: amaranth, sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -30,21 +36,37 @@ body{
         font-weight: 400;
         font-style: normal;
         color:white;
+        margin-top:30px;
 
     }
 
     h3{
         color:white;
+        padding-bottom:15px;
+        font-family: fairplex-narrow, serif;
+        font-weight: 500;
+        font-style: italic;
+        
     }
 
+    
 
     .button{
+        
         color:black;
         background-color: white;
-        padding:10px;
+        padding:15px;
         border-radius: 20px;
         text-align: center;
     }
+
+    .button:hover{
+        background-color:#0C936D;
+        color:white;
+    }
+
+
+    
 
     img{
         padding-bottom: 20px;
@@ -145,6 +167,17 @@ aside{
     @media (min-width:768px){
         width:300px;
     }
+}
+
+.case{
+    @media (min-width: 992px){
+        width:400px;     
+        }
+
+    @media (min-width:768px){
+            width:300px;
+        }
+
 }
 
 .navbar-toggler {
