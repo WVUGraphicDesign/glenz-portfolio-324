@@ -196,12 +196,13 @@ aside{
 .info{
     @media (min-width: 992px){
     position:fixed;
-    width:400px;     
+    width:300px;     
     }
     
-    @media (min-width:768px){
-        width:300px;
-    }
+    @media (min-width: 1200px){
+        position:fixed;
+        width:400px;     
+        }
 }
 
 .trac{
@@ -213,16 +214,14 @@ aside{
 
 }
 
-.case{
-    @media (min-width: 992px){
-        width:400px;     
-        }
-
-    @media (min-width:768px){
-            width:300px;
-        }
-
+.pad{
+    @media(min-width:992px){
+        padding-top:100px;
+    }
+    
 }
+
+
 
 .navbar-toggler {
     border-color: lightgreen;
@@ -250,12 +249,21 @@ img{
     h2{
     margin-top:0px;
     width:100%;
-    margin-bottom:20px; }   
+    margin-bottom:20px; 
+    
+
+    @media(min-width:992px){
+        font-size:1.5em;
+    }
+
+}   
     
     
      @media(min-width:992px){
         text-align:center;
-        padding-top:30px;}
+        padding-top:30px;
+        
+    }
     
 }
 
