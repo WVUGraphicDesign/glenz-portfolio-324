@@ -116,23 +116,32 @@ nav{
     
     flex-direction: column;
 
-    
+    color:white !important;
+
+    .navbar-nav li a{
+        color: white;
+        }
+
     ul{
         text-align:left;
-    }
+   
 
-        a{
-            .hover:hover{
-                color: yellowgreen;
-        }
+
+      li  {
+        color:white;
+      }
+      a{
+           color:white;
+        } }
     
+    .nav-item{
 
-            .active:active{
-                color:greenyellow;
+        
 
+        .hover:hover{
+        color:#0C936D
 
-        }}
-    }
+}}}
 
         .navbar-expand-lg .navbar-nav {
             flex-direction: column;
@@ -144,6 +153,12 @@ nav{
             }
             
             
+            
+        }
+
+        .navbar-nav{
+
+            --bs-nav-link-color: var(--bs-navbar-color);
             
         }
 
@@ -194,6 +209,8 @@ aside{
 
 
 .info{
+
+
     @media (min-width: 992px){
     position:fixed;
     width:300px;     
@@ -201,8 +218,13 @@ aside{
     
     @media (min-width: 1200px){
         position:fixed;
-        width:400px;     
+        width:350px;     
         }
+        @media (min-width: 1400px){
+            position:fixed;
+            width:400px;     
+            }
+
 }
 
 .trac{
